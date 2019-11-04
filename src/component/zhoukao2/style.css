@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 50px;
+    /* background: red; */
+}
+
+.head span {
+    line-height: 50px;
+}
+
+.main {
+    /* background: saddlebrown; */
+    width: 100%;
+}
+
+.hai {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-bottom: 1px solid #000;
+    line-height: 50px;
+}
+
+.float {
+    float: left;
+    margin-left: 30px;
+}
+
+
+/* .float:active {
+    background: red;
+} */
+
+.zhog {
+    border-bottom: 1px solid #000;
+}
+
+.active {
+    background: red;
+}
+
+.zhe {
+    display: none;
+    position: fixed;
+    top: 100px;
+    background: orange;
+    width: 100%;
+    height: 300px;
+}
